@@ -27,7 +27,7 @@ Replace the i3status for the script `i3_common.sh`
 
 ```bash
 bar {
-    status_command i3_command.sh
+    status_command i3_common.sh
 }
 ```
 
