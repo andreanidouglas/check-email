@@ -49,9 +49,6 @@ func main() {
 		log.Fatalf("could not connect to imap server: %s %e", imap_name, err)
 	}
 	defer client.Logout()
-
-	fmt.Printf("%+v", config)
-
 	if err := client.Login(config.Email.Username, config.Email.Password); err != nil {
 		log.Fatalf("could not authenticate with Imap server %v", err)
 	}
