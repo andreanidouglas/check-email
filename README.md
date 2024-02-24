@@ -10,6 +10,15 @@ Create a file `email.yml` (see example) to configure email server and credential
 $ ./check_email email.yml
 ```
 
+## Building
+
+_go minimum version: 1.20_
+
+```bash
+go build -o check_status cmd/main.go
+```
+
+
 ## i3Status
 
 **If you want this to execute on your i3status bar.**
