@@ -1,0 +1,7 @@
+email:
+  login: your email address
+  password: your password
+
+server:
+  host: "imap.gmail.com"
+  port: 993
